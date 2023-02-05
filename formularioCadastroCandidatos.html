@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:bisque"><strong>
+    <form method="get" name="cadastroFuncionarios" action="">
+            <h1><center> Cadastro de Candidatos</center></h1>
+            <div><center><img src="func.png" width="100" alt="Cadastro de funcionários"></center></div>
+        <div>  
+            <h2><div style=background-color:cadetblue> Cadastrais</div></h2>  
+                <label>Nome Completo: </label><Input name="nome" type="text" placeholder="Nome Completo"><br/><br/>
+                <label>Sexo:</label>
+                        <select name="sexo" required>
+                            <option value="">----</option>
+                            <option value="masc">masculino</option>
+                            <option value="fem">feminino</option>
+                            <option value="outros">outros</option>
+                            <option value="nao declarou">prefiro não declarar</option>
+                        </select><br/><br/>
+                <label>Date De Nascimento:</label><Input name="nome" type="date" placeholder="Nome Completo"><br/><br/>
+                <label>RG:</label><Input name="nome" type="number" placeholder="RG"><br/><br/>
+                <Plabel>CPF:</label><Input name="nome" type="number" placeholder="CPF"><br/><br/>
+                <label>Endereço:</label><Input name="nome" type="text" placeholder="Endereço"><br/><br/>
+                <label>CEP:</label><Input name="nome" type="number" placeholder="CEP"><br/><br/>
+                <label>Telefone:</label><Input name="number" type="text" placeholder="Telefone"><br/><br/>
+                <label>E-mail:</label><Input name="nome" type="text" placeholder="E-mail"><br/><br/>
+                <label>PCD:</label> 
+                    <input type="checkbox" name="pcd" value="sim">sim
+                    <input type="checkbox" name="pcd" value="nao">não
+                <hr/>
+        </div>    
+        <div>
+            <h2><div style=background-color:cadetblue> Formação Acadêmica</div></h2>
+                <p>Grau De Instrução:</p>
+                    <input type="radio" name="escola" value="fund">ensino fundamental
+                    <input type="radio" name="escola" value="med">ensino médio
+                    <input type="radio" name="escola" value="sup">ensino superior
+                    <input type="radio" name="escola" value="">nenhum <br/><br/>
+                <p>Ensino Superior:</p>
+                    <input type="radio" name="grau" value="com">completo
+                    <input type="radio" name="grau" value="inc">incompleto
+                    <input type="radio" name="grau" value="cur">cursando
+                    <input type="radio" name="grau" value="">nenhum <br/><br/>
+                <label>Instituição De Ensino:</label><Input name="nome" type="text" placeholder="Nome da Faculdade"> <br/><br/>
+                <label>Curso:</label><Input name="nome" type="text" placeholder="Curso"><br/><br/>
+                <label>Ano De Conclusão:</label><Input name="nome" type="date" placeholder="Ano conclusão"><br/><br/>
+                <p>Cursos Realizados:</p>
+                    <textarea name="obs" rows="10" cols="60">
+                    </textarea><br/><br/>   
+                <hr/>    
+        </div>  
+        <div>
+            <h2><div style=background-color:cadetblue>Experiências Profissionais</div></h2>
+                <p>Faça um resumo das suas experiências profissionais:</p>
+                <textarea name="obs" rows="10" cols="60">
+                </textarea><br/><br/> 
+            <hr/> 
+        </div>
+        <div>
+            <h2><div style=background-color:cadetblue> Informações Pessoais</div></h2>
+                <p>Objetivo:</p>
+                <textarea name="obs" rows="10" cols=60">
+                </textarea><br/><br/>  
+                <p>Meta Salarial:</p>
+                <textarea name="obs" rows="10" cols="60">
+                </textarea><br/><br/>  
+                <p>Conte mais sobre você:</p>
+                <textarea name="obs" rows="10" cols="60">
+                </textarea><br/><br/>  
+            
+        </div>
+
+        <button type="reset">Cancelar</button><button>Enviar</button> 
+
+
+
+
+    </form><br/>
+    
+</strong></body>
+<span style=background-color:cadetblue;> Feito Por: Mateus Machado Rosa</span>
+</html>
